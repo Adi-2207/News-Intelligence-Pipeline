@@ -23,7 +23,7 @@ An end-to-end machine learning pipeline for clustering and categorizing news art
 
 ### Option 1: Google Colab (Recommended)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ado-2207/news-intelligence-pipeline/blob/main/notebooks/news_intelligence_pipeline.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Adi-2207/news-intelligence-pipeline/blob/main/notebooks/news_intelligence_pipeline.ipynb)
 
 ### Option 2: Local Installation
 
