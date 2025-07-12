@@ -185,16 +185,6 @@ graph LR
     H --> I[REST API]
 ```
 
-## API Endpoints
-
-|Endpoint     |Method|Description                     |Example                            |
-|-------------|------|--------------------------------|-----------------------------------|
-|`/`          |GET   |API documentation               |-                                  |
-|`/clusters`  |GET   |Get clusters by category        |`?category=Technology&limit=5`     |
-|`/articles`  |GET   |Get articles by cluster/category|`?cluster_id=42&sort=chronological`|
-|`/categories`|GET   |List all categories             |-                                  |
-|`/stats`     |GET   |Pipeline statistics             |-                                  |
-
 ## Running Tests
 
 ```bash
@@ -262,6 +252,5 @@ This project is licensed under the MIT License - see the <LICENSE> file for deta
 ## 📧 Contact
 
 Aditya Prajapati - adityasp2207@gmail.com
-
 Project Link: <https://github.com/Adi-2207/News-Intelligence-Pipeline>
 
