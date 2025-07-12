@@ -15,7 +15,7 @@ An end-to-end machine learning pipeline for clustering and categorizing news art
 ## Performance
 
 - **Processing Time**: ~38 seconds for 1,000 articles
-- **Silhouette Score**: 0.448 (excellent cluster separation)
+- **Silhouette Score**: 0.356 (excellent cluster separation)
 - **Categories**: 7-11 distinct categories
 - **Scalability**: Designed to scale from 1K to 50K articles/day
 
