@@ -1,0 +1,94 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Data files (too large for GitHub)
+data/*.csv
+data/*.json
+data/*.jsonl
+data/*.pkl
+data/*.npy
+
+# Output files
+output/
+pipeline_output/
+*.pkl
+*.npy
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
+
+# Model files
+models/
+*.bin
+*.pt
+*.pth
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# API
+instance/
+*.db
+
+# Documentation builds
+docs/_build/
+docs/.doctrees/
+
+# Testing
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Credentials
+credentials.json
+*.key
+*.pem
