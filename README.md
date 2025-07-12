@@ -238,9 +238,6 @@ The system is designed to scale from 1K to 50K articles/day:
 1. Push to the branch (`git push origin feature/AmazingFeature`)
 1. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the <LICENSE> file for details.
 
 ## Acknowledgments
 
@@ -252,5 +249,6 @@ This project is licensed under the MIT License - see the <LICENSE> file for deta
 ## 📧 Contact
 
 Aditya Prajapati - adityasp2207@gmail.com
+
 Project Link: <https://github.com/Adi-2207/News-Intelligence-Pipeline>
 
