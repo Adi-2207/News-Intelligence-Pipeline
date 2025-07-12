@@ -59,7 +59,7 @@ news-intelligence-pipeline/
 ├── src/
 │   ├── __init__.py
 │   ├── data_ingestion.py      # Data loading and validation
-│   ├── preprocessing.py        # Text cleaning and normalization
+│   ├── preprocessing.py       # Text cleaning and normalization
 │   ├── embeddings.py          # Sentence embedding generation
 │   ├── clustering.py          # HDBSCAN and K-Means clustering
 │   ├── categorization.py      # Weak supervision categorization
@@ -118,7 +118,7 @@ flask>=2.0.0
 nltk>=3.6.0
 ```
 
-## 💻 Usage
+## Usage
 
 ### 1. Run Complete Pipeline
 
@@ -165,9 +165,9 @@ The pipeline includes automated evaluation with the following metrics:
 
 |Metric           |Value|Description                                 |
 |-----------------|-----|--------------------------------------------|
-|Silhouette Score |0.448|Cluster separation quality (-1 to 1)        |
-|Calinski-Harabasz|156.3|Inter-cluster vs intra-cluster variance     |
-|Davies-Bouldin   |1.23 |Average cluster similarity (lower is better)|
+|Silhouette Score |0.356|Cluster separation quality (-1 to 1)        |
+|Calinski-Harabasz|637.4|Inter-cluster vs intra-cluster variance     |
+|Davies-Bouldin   |1.106 |Average cluster similarity (lower is better)|
 |Categories Found |7-11 |Number of distinct topics                   |
 |Noise Points     |<5%  |Unclustered articles                        |
 
@@ -219,14 +219,15 @@ pytest --cov=src tests/
 ### Category Distribution
 
 ```
-Lifestyle:      29.3%
-Technology:     18.7%
-Politics:       14.9%
-Sports:         14.2%
-Entertainment:  10.7%
-Health:          8.1%
+Lifestyle:      32.1%
+Politics:       16.3%
+Sports:         13.5%
+Technology:     13.4%
+Health:         11.8%
+Entertainment:   8.8%
 Business:        3.3%
-Others:          0.8%
+World News:      0.3%
+Others:          0.5%
 ```
 
 ## 🚀 Scaling to Production
